@@ -52,7 +52,6 @@
     "    with open(filename, mode='r', encoding='utf-8') as f:\n",
     "        reader = f.read() \n",
     "    tweets = reader.strip().split('\\n')\n",
-    "    tweets = [tweet.strip() for tweet in tweets if tweet.strip()]\n",
     "    return tweets\n",
     "    \n",
     "tweets_list_D = tweet_list(filename_1)\n",
